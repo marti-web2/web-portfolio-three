@@ -79,7 +79,7 @@ const Works = () => (
           thumbnail={thumbModeTokyo}
           title="mode.tokyo"
         >
-          The mode magazine for understanding to personally enjoy Japan
+          The mode magazine for understanding to personally enjoy U.S.A.
         </WorkGridItem>
       </Section>
       <Section delay={0.3}>

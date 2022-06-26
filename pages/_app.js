@@ -7,7 +7,7 @@ if (typeof window !== 'undefined') {
   window.history.scrollRestoration = 'manual'
 }
 
-const Website = ({Component, pageProps, router}) => {
+function Website({ Component, pageProps, router }) {
   return (
     <Chakra cookies={pageProps.cookies}>
       <Fonts />

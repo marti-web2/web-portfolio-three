@@ -27,10 +27,12 @@ export const DogContainer = forwardRef(({ children }, ref) => (
   </Box>
 ))
 
-
 const Loader = () => {
-
-
+  return (
+    <DogContainer>
+      <DogSpinner />
+    </DogContainer>
+  )
 }
 
 export default Loader

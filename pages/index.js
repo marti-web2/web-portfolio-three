@@ -38,13 +38,13 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Japan!
+        Hello, I&apos;m an indie app developer based in U.S.A.!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Marti McDee
           </Heading>
           <p>Digital Craftsman ( Artist / Developer / Designer )</p>
         </Box>
@@ -65,7 +65,7 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/takuya.jpg"
+              src="/images/marti.jpg"
               alt="Profile image"
               borderRadius="full"
               width="100%"
@@ -80,7 +80,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
+          Marti is a freelance and a full-stack developer based in Osaka with a
           passion for building digital services/stuff he wants. He has a knack
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code. When not online, he loves
@@ -109,22 +109,17 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
+       <BioSection>
+        <BioYear>2019</BioYear>
+        Completed the Associates of Science Program at Northeast Lakeview College
+       </BioSection>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>2021</BioYear>
+          Completed the Bachelor&apos;s of Computer Science Program at the University of
+          Texas at San Antonio
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
-        </BioSection>
-        <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
-        </BioSection>
-        <BioSection>
-          <BioYear>2012 to present</BioYear>
+          <BioYear>2022 to present</BioYear>
           Working as a freelancer
         </BioSection>
       </Section>
@@ -134,15 +129,10 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
+          Art, Music,{' '}, Drawing, Playing Keyboards {'&'} Guitar,{' '}
+          <Link href="https://www.twitch.tv/marti_mcdee" target="_blank">
+            Gaming
           </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
-          </Link>
-          , Leica, Machine Learning
         </Paragraph>
       </Section>
 
@@ -152,63 +142,45 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/marti-mcdee" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @craftzdog
+                @marti-McDee
               </Button>
             </Link>
           </ListItem>
+          
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="https://twitter.com/marti_mcdee" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @inkdrop_app (English)
+                @marti_mcdee
               </Button>
             </Link>
           </ListItem>
-          <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @craftzdog (日本語)
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoInstagram />}
-              >
-                @craftzdog
-              </Button>
-            </Link>
-          </ListItem>
+          
         </List>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
+            href="https://www.youtube.com/channel/UCfwy8OpJX_eO4bDExgQ2lfw"
+            title="Pregaming the Afterlife"
             thumbnail={thumbYouTube}
+            alt="YouTube thumbnail"
           >
-            My YouTube channel (&gt;100k subs)
+            My YouTube channel
           </GridItem>
           <GridItem
-            href="https://www.inkdrop.app/"
+            href="#"
             title="Inkdrop"
             thumbnail={thumbInkdrop}
+            alt="App thumbnail"
           >
             A Markdown note-taking app
           </GridItem>

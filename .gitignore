@@ -1,5 +1,5 @@
 node_modules/
 .next/
-
-prettier.config.js
-.prettierignore
+dist/
+.vercel
+.env
