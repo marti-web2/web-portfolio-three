@@ -1,0 +1,22 @@
+React - A JS library for building UI
+Next.js - A React framework with hybrid static & server rendeing, and route pre-fetching
+Chakra UI - A simple, modular and accessible component library for React
+Framer Motion - An animation library for React
+Three.js - 3D library for JavaScript
+
+*** Project Structure ***
+
+Very similar to the structure of a monorepo
+
+$PROJECT_ROOT
+    # Page files
+    pages
+
+    # React component files
+    components
+    
+    # Non-react modules
+    lib
+
+    # Static files for images and 3d model file
+    public
