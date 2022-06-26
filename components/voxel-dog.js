@@ -10,7 +10,11 @@ function easeOutCirc(x) {
 
 const VoxelDog = () => {
 
+const refContainer = useRef()
 
+return (
+  <Box ref={refContainer}>Dog!!!</Box>
+)
 
 }
 
