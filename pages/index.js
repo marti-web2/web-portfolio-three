@@ -19,7 +19,7 @@ import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import thumbInkdrop from '../public/images/links/youtube.png'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -176,11 +176,11 @@ const Home = () => (
           </GridItem>
           <GridItem
             href="#"
-            title="Inkdrop"
+            title="Project"
             thumbnail={thumbInkdrop}
             alt="App thumbnail"
           >
-            A Markdown note-taking app
+            Highlighted Project
           </GridItem>
         </SimpleGrid>
 
