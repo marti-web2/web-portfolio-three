@@ -114,7 +114,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music, Drawing, Playing Keyboards {'&'} Guitar,{' '}
+          Coding, Learning new languages, Drawing, Playing keyboards {'&'} guitar,{' '}and{' '}
           <Link href="https://www.twitch.tv/marti_mcdee" target="_blank">
             Gaming
           </Link>

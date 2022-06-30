@@ -70,15 +70,6 @@ const VoxelDog = () => {
       hemiLight.position.set(0, 300, 0)
       scene.add(hemiLight)
 
-      // const dirLight = new THREE.DirectionalLight(0xcccccc)
-      // dirLight.position.set(75, 300, -75)
-      // scene.add(dirLight)
-
-      // add PointLight
-      const pointLight = new THREE.PointLight(0xffffff, 0.5)
-      pointLight.position.set(0, 300, 0)
-      scene.add(pointLight)
-
       const controls = new OrbitControls(camera, renderer.domElement)
       controls.autoRotate = true
       controls.target = target
