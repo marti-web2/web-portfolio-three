@@ -66,22 +66,32 @@ const VoxelDog = () => {
       camera.lookAt(target)
       setCamera(camera)
 
-      const ambientLight = new THREE.AmbientLight(0xcccccc, 1)
-      scene.add(ambientLight)
+      const hemiLight = new THREE.HemisphereLight(0xcccccc, 0x444444)
+      hemiLight.position.set(0, 300, 0)
+      scene.add(hemiLight)
+
+      // const dirLight = new THREE.DirectionalLight(0xcccccc)
+      // dirLight.position.set(75, 300, -75)
+      // scene.add(dirLight)
+
+      // add PointLight
+      const pointLight = new THREE.PointLight(0xffffff, 0.5)
+      pointLight.position.set(0, 300, 0)
+      scene.add(pointLight)
 
       const controls = new OrbitControls(camera, renderer.domElement)
       controls.autoRotate = true
       controls.target = target
       setControls(controls)
 
-      loadGLTFModel(scene, '/dog.glb', {
+      loadGLTFModel(scene, '/shiba/scene.gltf', {
         receiveShadow: false,
         castShadow: false
       }).then(() => {
         animate()
         setLoading(false)
       })
-
+    
       let req = null
       let frame = 0
       const animate = () => {

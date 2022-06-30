@@ -17,7 +17,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
@@ -30,23 +30,14 @@ const Home = () => (
 
 <Layout>
     <Container>
-      <Box
-        borderRadius="lg"
-        mb={6}
-        p={3}
-        textAlign="center"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-        css={{ backdropFilter: 'blur(10px)' }}
-      >
-        Hello, I&apos;m an indie app developer based in U.S.A.!
-      </Box>
+      
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
             Marti McDee
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Digital Artist / Musician / Developer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -80,21 +71,15 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Marti is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
+          I am a freelance and a full-stack developer based in the U.S.A. with a
+          passion for building things that help people do things and have fun. I have a knack
           for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
-          <NextLink href="/works/inkdrop" passHref scroll={false}>
-            <Link>Inkdrop</Link>
+          way to solving real-life problems with code. When not online, I love to
+          play music. I periodically upload instructional videos and tips/tricks on my{' '}
+          <NextLink href="https://www.youtube.com/channel/UCfwy8OpJX_eO4bDExgQ2lfw" passHref>
+            <Link target="_blank">YouTube{' '}</Link>
           </NextLink>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <NextLink href="https://www.youtube.com/devaslife" passHref>
-            <Link target="_blank">Dev as Life</Link>
-          </NextLink>
-          &quot; has more than 100k subscribers.
+          channel.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -129,7 +114,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}, Drawing, Playing Keyboards {'&'} Guitar,{' '}
+          Art, Music, Drawing, Playing Keyboards {'&'} Guitar,{' '}
           <Link href="https://www.twitch.tv/marti_mcdee" target="_blank">
             Gaming
           </Link>
@@ -141,19 +126,8 @@ const Home = () => (
           On the web
         </Heading>
         <List>
-          <ListItem>
-            <Link href="https://github.com/marti-mcdee" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoGithub />}
-              >
-                @marti-McDee
-              </Button>
-            </Link>
-          </ListItem>
-          
-          <ListItem>
+
+        <ListItem>
             <Link href="https://twitter.com/marti_mcdee" target="_blank">
               <Button
                 variant="ghost"
@@ -161,6 +135,30 @@ const Home = () => (
                 leftIcon={<IoLogoTwitter />}
               >
                 @marti_mcdee
+              </Button>
+            </Link>
+          </ListItem>
+
+          <ListItem>
+            <Link href="https://github.com/marti-mcdee" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoGithub />}
+              >
+                Github
+              </Button>
+            </Link>
+          </ListItem>
+
+          <ListItem>
+            <Link href="https://www.linkedin.com/in/david-martinez-a693b165/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoLinkedin />}
+              >
+               Linkedin
               </Button>
             </Link>
           </ListItem>
