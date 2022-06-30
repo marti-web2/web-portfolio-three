@@ -6,18 +6,16 @@ Three.js - 3D library for JavaScript
 Framer Motion - An animation library for React
 Project structure
 
-
 $PROJECT_ROOT
 
-│   # Page files
+│ # Page files
 ├── pages
-│   # React component files
+│ # React component files
 ├── components
-│   # Non-react modules
+│ # Non-react modules
 ├── lib
-│   # Static files for images and 3d model file
+│ # Static files for images and 3d model file
 └── public
-
 
 License
 

@@ -9,8 +9,6 @@ const Posts = () => (
       <Heading as="h3" fontSize={20} mb={4}>
         Popular Posts
       </Heading>
-
-
     </Container>
   </Layout>
 )

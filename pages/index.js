@@ -17,7 +17,12 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+import {
+  IoLogoTwitter,
+  IoLogoInstagram,
+  IoLogoGithub,
+  IoLogoLinkedin
+} from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/links/youtube.png'
 import Image from 'next/image'
@@ -27,11 +32,8 @@ const ProfileImage = chakra(Image, {
 })
 
 const Home = () => (
-
-<Layout>
+  <Layout>
     <Container>
-      
-
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
@@ -72,12 +74,16 @@ const Home = () => (
         </Heading>
         <Paragraph>
           I am a freelance and a full-stack developer based in the U.S.A. with a
-          passion for building things that help people do things and have fun. I have a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, I love to
-          play music. I periodically upload instructional videos and tips/tricks on my{' '}
-          <NextLink href="https://www.youtube.com/channel/UCfwy8OpJX_eO4bDExgQ2lfw" passHref>
-            <Link target="_blank">YouTube{' '}</Link>
+          passion for building things that help people do things and have fun. I
+          have a knack for all things launching products, from planning and
+          designing all the way to solving real-life problems with code. When
+          not online, I love to play music. I periodically upload instructional
+          videos and tips/tricks on my{' '}
+          <NextLink
+            href="https://www.youtube.com/channel/UCfwy8OpJX_eO4bDExgQ2lfw"
+            passHref
+          >
+            <Link target="_blank">YouTube </Link>
           </NextLink>
           channel.
         </Paragraph>
@@ -94,14 +100,15 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
-       <BioSection>
-        <BioYear>2019</BioYear>
-        Completed the Associates of Science Program at Northeast Lakeview College
-       </BioSection>
+        <BioSection>
+          <BioYear>2019</BioYear>
+          Completed the Associates of Science Program at Northeast Lakeview
+          College
+        </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Completed the Bachelor&apos;s of Computer Science Program at the University of
-          Texas at San Antonio
+          Completed the Bachelor&apos;s of Computer Science Program at the
+          University of Texas at San Antonio
         </BioSection>
         <BioSection>
           <BioYear>2022 to present</BioYear>
@@ -114,7 +121,8 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Coding, Learning new languages, Drawing, Playing keyboards {'&'} guitar,{' '}and{' '}
+          Coding, Learning new languages, Drawing, Playing keyboards {'&'}{' '}
+          guitar, and{' '}
           <Link href="https://www.twitch.tv/marti_mcdee" target="_blank">
             Gaming
           </Link>
@@ -126,8 +134,7 @@ const Home = () => (
           On the web
         </Heading>
         <List>
-
-        <ListItem>
+          <ListItem>
             <Link href="https://twitter.com/marti_mcdee" target="_blank">
               <Button
                 variant="ghost"
@@ -152,17 +159,19 @@ const Home = () => (
           </ListItem>
 
           <ListItem>
-            <Link href="https://www.linkedin.com/in/david-martinez-a693b165/" target="_blank">
+            <Link
+              href="https://www.linkedin.com/in/david-martinez-a693b165/"
+              target="_blank"
+            >
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoLinkedin />}
               >
-               Linkedin
+                Linkedin
               </Button>
             </Link>
           </ListItem>
-          
         </List>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
