@@ -1,6 +1,7 @@
 {
   "name": "web-portfolio-three",
   "version": "1.0.0",
+  "homepage": "https://martimcdee.com",
   "description": "Marti's professional website",
   "main": "index.js",
   "scripts": {
