@@ -76,9 +76,9 @@ const Home = () => (
           I am a freelance and a full-stack developer based in Texas, with a
           passion for building things that help people do things and have fun. I
           have a knack for all things launching products, from planning and
-          designing to solving real-life problems with code. When
-          not online, I love to play music. I periodically upload instructional
-          videos and tips/tricks on my{' '}
+          designing to solving real-life problems with code. When not online, I
+          love to play music. I periodically upload instructional videos and
+          tips/tricks on my{' '}
           <NextLink
             href="https://www.youtube.com/channel/UCfwy8OpJX_eO4bDExgQ2lfw"
             passHref
@@ -121,8 +121,8 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Coding, Learning new programming languages, Drawing, Playing keyboards {'&'}{' '}
-          guitar, and{' '}
+          Coding, Learning new programming languages, Drawing, Playing keyboards{' '}
+          {'&'} guitar, and{' '}
           <Link href="https://www.twitch.tv/marti_mcdee" target="_blank">
             Gaming
           </Link>
@@ -146,7 +146,6 @@ const Home = () => (
             </Link>
           </ListItem>
 
-          
           <ListItem>
             <Link href="https://github.com/marti-mcdee" target="_blank">
               <Button
@@ -158,7 +157,6 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-
 
           <ListItem>
             <Link
@@ -174,7 +172,7 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-          
+
           <ListItem>
             <Link href="https://www.instagram.com/marti_mcdee/" target="_blank">
               <Button
@@ -203,7 +201,7 @@ const Home = () => (
             thumbnail={thumbFeatured}
             alt="App thumbnail"
           >
-        An app that provides a menu of delicious recipes
+            An app that provides a menu of delicious recipes
           </GridItem>
         </SimpleGrid>
 

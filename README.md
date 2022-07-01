@@ -21,7 +21,6 @@ License
 
 MIT License.
 
-
 GLTF Model
 
 Title: Shiba
