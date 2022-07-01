@@ -24,7 +24,7 @@ import {
   IoLogoLinkedin
 } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/links/youtube.png'
+import thumbFeatured from '../public/featured-app.png'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -73,10 +73,10 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          I am a freelance and a full-stack developer based in the U.S.A. with a
+          I am a freelance and a full-stack developer based in Texas, with a
           passion for building things that help people do things and have fun. I
           have a knack for all things launching products, from planning and
-          designing all the way to solving real-life problems with code. When
+          designing to solving real-life problems with code. When
           not online, I love to play music. I periodically upload instructional
           videos and tips/tricks on my{' '}
           <NextLink
@@ -121,7 +121,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Coding, Learning new languages, Drawing, Playing keyboards {'&'}{' '}
+          Coding, Learning new programming languages, Drawing, Playing keyboards {'&'}{' '}
           guitar, and{' '}
           <Link href="https://www.twitch.tv/marti_mcdee" target="_blank">
             Gaming
@@ -146,6 +146,7 @@ const Home = () => (
             </Link>
           </ListItem>
 
+          
           <ListItem>
             <Link href="https://github.com/marti-mcdee" target="_blank">
               <Button
@@ -158,6 +159,7 @@ const Home = () => (
             </Link>
           </ListItem>
 
+
           <ListItem>
             <Link
               href="https://www.linkedin.com/in/david-martinez-a693b165/"
@@ -169,6 +171,18 @@ const Home = () => (
                 leftIcon={<IoLogoLinkedin />}
               >
                 Linkedin
+              </Button>
+            </Link>
+          </ListItem>
+          
+          <ListItem>
+            <Link href="https://www.instagram.com/marti_mcdee/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoInstagram />}
+              >
+                Instagram
               </Button>
             </Link>
           </ListItem>
@@ -185,11 +199,11 @@ const Home = () => (
           </GridItem>
           <GridItem
             href="#"
-            title="Project"
-            thumbnail={thumbInkdrop}
+            title="Delicious Dishes"
+            thumbnail={thumbFeatured}
             alt="App thumbnail"
           >
-            Highlighted Project
+        An app that provides a menu of delicious recipes
           </GridItem>
         </SimpleGrid>
 

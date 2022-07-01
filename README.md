@@ -20,3 +20,11 @@ $PROJECT_ROOT
 License
 
 MIT License.
+
+
+GLTF Model
+
+Title: Shiba
+Author: zlxlsun02
+Source: https://sketchfab.com/3d-models/shiba-faef9fe5ace445e7b2989d1c1ece361c
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
