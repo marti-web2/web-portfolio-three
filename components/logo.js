@@ -25,7 +25,6 @@ const Logo = () => {
     <Link href="/">
       <a>
         <LogoBox>
-          {/* TODO: place logo here */}
           <Image src={omegaImg} width={20} height={20} alt="logo" />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
