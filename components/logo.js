@@ -34,7 +34,7 @@ const Logo = () => {
           >
             Marti McDee
           </Text>
-        </LogoBox>
+        </LogoBox>                                                                                                          
       </a>
     </Link>
   )

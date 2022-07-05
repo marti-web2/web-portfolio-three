@@ -6,11 +6,12 @@ import {
   Box,
   SimpleGrid,
   Button,
+  ButtonGroup,
   List,
   ListItem,
   chakra
 } from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
@@ -88,7 +89,7 @@ const Home = () => (
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="cyan" variant={'outline'}>
               My portfolio
             </Button>
           </NextLink>
@@ -137,22 +138,10 @@ const Home = () => (
             <Link href="https://twitter.com/marti_mcdee" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
+                colorScheme="twitter"
                 leftIcon={<IoLogoTwitter />}
               >
                 @marti_mcdee
-              </Button>
-            </Link>
-          </ListItem>
-
-          <ListItem>
-            <Link href="https://github.com/marti-mcdee" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoGithub />}
-              >
-                Github
               </Button>
             </Link>
           </ListItem>
@@ -164,7 +153,7 @@ const Home = () => (
             >
               <Button
                 variant="ghost"
-                colorScheme="teal"
+                colorScheme="linkedin"
                 leftIcon={<IoLogoLinkedin />}
               >
                 Linkedin
@@ -173,10 +162,22 @@ const Home = () => (
           </ListItem>
 
           <ListItem>
+            <Link href="https://github.com/marti-mcdee" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="github"
+                leftIcon={<IoLogoGithub />}
+              >
+                Github
+              </Button>
+            </Link>
+          </ListItem>
+
+          <ListItem>
             <Link href="https://www.instagram.com/marti_mcdee/" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
+                colorScheme="instagram"
                 leftIcon={<IoLogoInstagram />}
               >
                 Instagram
@@ -205,11 +206,18 @@ const Home = () => (
         </SimpleGrid>
 
         <Box align="center" my={4}>
-          <NextLink href="/posts" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Popular posts
-            </Button>
-          </NextLink>
+          <ButtonGroup variant='outline' spacing='6'>
+            <NextLink href="/posts" passHref scroll={false}>
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="cyan">
+                Popular posts
+              </Button>
+            </NextLink>
+            <Link href="mailto:marti@martimcdee.com">
+              <Button as="a" leftIcon={<EmailIcon />} colorScheme="cyan">
+                Email Me
+              </Button>
+            </Link>
+          </ButtonGroup>
         </Box>
       </Section>
     </Container>
