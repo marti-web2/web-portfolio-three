@@ -24,7 +24,7 @@ import {
   IoLogoLinkedin
 } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
-import thumbFeatured from '../public/featured-app.png'
+import thumbFeatured from '../public/images/featured-app.jpg'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
