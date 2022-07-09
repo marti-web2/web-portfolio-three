@@ -197,7 +197,7 @@ const Home = () => (
           </GridItem>
           <GridItem
             href="https://delicious-dining.online/"
-            title="Delicious Dishes"
+            title="Delicious Dining"
             thumbnail={thumbFeatured}
             alt="App thumbnail"
           >

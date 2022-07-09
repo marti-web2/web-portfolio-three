@@ -39,14 +39,18 @@ const Work = () => (
           </Link>
         </ListItem>
         <ListItem>
-          <Meta>Platform</Meta>
-          <span>Web 2.0</span>
+        <Flex mt={1}>
+            <Meta>Platform</Meta>
+            <Image src="https://toppng.com/uploads/preview/web-png-jpg-transparent-stock-website-icon-blue-11563644926reanjnmk6x.png" alt='React Logo' 
+            boxSize={'1.5rem'} borderRadius='full' ignoreFallback /><Text ml={2}>Web 2.0</Text>
+
+          </Flex>
         </ListItem>
         <ListItem>
-          <Flex align="left">
+          <Flex mt={1}>
             <Meta>Stack</Meta>
             <Image src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt='React Logo' 
-            boxSize={'1.75rem'} borderRadius='full' ignoreFallback /><Text ml={2}>React</Text>
+            boxSize={'1.5rem'} borderRadius='full' ignoreFallback /><Text ml={2}>React</Text>
 
           </Flex>
         </ListItem>

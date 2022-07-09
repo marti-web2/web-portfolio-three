@@ -13,7 +13,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.2}>
           <Divider my={6} />
-          <WorkGridItem id="delicious-dining" title="Delicious-Dining" thumbnail={thumbDining}>
+          <WorkGridItem id="delicious-dining" title="Delicious Dining" thumbnail={thumbDining}>
             An app that allows you to browse through a wide selection of delicious recipes that even the novice chef can
             prepare in little time.
           </WorkGridItem>
