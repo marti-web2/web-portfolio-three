@@ -196,7 +196,7 @@ const Home = () => (
             My YouTube channel
           </GridItem>
           <GridItem
-            href="#"
+            href="https://delicious-dining.online/"
             title="Delicious Dishes"
             thumbnail={thumbFeatured}
             alt="App thumbnail"
