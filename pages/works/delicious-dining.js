@@ -45,7 +45,7 @@ const Work = () => (
             <Meta>Platform</Meta>
             <Image
               src="https://toppng.com/uploads/preview/web-png-jpg-transparent-stock-website-icon-blue-11563644926reanjnmk6x.png"
-              alt="React Logo"
+              alt="Worldwide Web Logo"
               boxSize={'1.5rem'}
               borderRadius="full"
               ignoreFallback
@@ -63,7 +63,15 @@ const Work = () => (
               borderRadius="full"
               ignoreFallback
             />
-            <Text ml={2}>React</Text>
+            <Text ml={2} mr={4}>React</Text>
+            <Image
+              src="../../images/icons/node.png"
+              alt="Node Logo"
+              boxSize={'1.5rem'}
+              borderRadius="full"
+              ignoreFallback
+            />
+            <Text ml={2}>Node</Text>
           </Flex>
         </ListItem>
       </List>
