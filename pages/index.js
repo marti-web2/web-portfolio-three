@@ -84,11 +84,15 @@ const Home = () => (
           >
             <Link target="_blank">YouTube </Link>
           </NextLink>
-          channel{' '} for app development tips and instructional videos.
+          channel for app development tips and instructional videos.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="cyan" variant={'outline'}>
+            <Button
+              rightIcon={<ChevronRightIcon />}
+              colorScheme="cyan"
+              variant={'outline'}
+            >
               My portfolio
             </Button>
           </NextLink>
@@ -205,7 +209,7 @@ const Home = () => (
         </SimpleGrid>
 
         <Box align="center" my={4}>
-          <ButtonGroup variant='outline' spacing='6'>
+          <ButtonGroup variant="outline" spacing="6">
             <NextLink href="/posts" passHref scroll={false}>
               <Button rightIcon={<ChevronRightIcon />} colorScheme="cyan">
                 Popular posts
