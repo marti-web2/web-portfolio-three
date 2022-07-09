@@ -73,19 +73,18 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          I am a freelance and a full-stack developer based in Texas, with a
+          I am a freelance and full-stack developer based in Texas, USA with a
           passion for building things that help people do things and have fun. I
           have a knack for all things launching products, from planning and
           designing to solving real-life problems with code. When not online, I
-          love to play music. I periodically upload instructional videos and
-          tips/tricks on my{' '}
+          love to play music. Check out my{' '}
           <NextLink
             href="https://www.youtube.com/channel/UCfwy8OpJX_eO4bDExgQ2lfw"
             passHref
           >
             <Link target="_blank">YouTube </Link>
           </NextLink>
-          channel.
+          channel{' '} for app development tips and instructional videos.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>

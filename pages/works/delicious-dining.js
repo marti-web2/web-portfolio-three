@@ -2,7 +2,6 @@ import {
   Container,
   Badge,
   Flex,
-
   Image,
   Link,
   List,
@@ -22,7 +21,7 @@ const Work = () => (
         Delicious Dining <Badge>2022</Badge>
       </Title>
       <P>
-        A useful app with detailed instructions to help anyone prepare a delicious gourmet meal. The Splide component
+        An app that provides detailed instructions to help anyone prepare a delicious gourmet meal. The Splide component
         is implemented to give the user a smooth experience in selecting recipes from a handy carousel.
       </P>
       <List ml={4} my={4}>
@@ -41,9 +40,10 @@ const Work = () => (
         <ListItem>
         <Flex mt={1}>
             <Meta>Platform</Meta>
-            <Image src="https://toppng.com/uploads/preview/web-png-jpg-transparent-stock-website-icon-blue-11563644926reanjnmk6x.png" alt='React Logo' 
+            <Image 
+            src="https://toppng.com/uploads/preview/web-png-jpg-transparent-stock-website-icon-blue-11563644926reanjnmk6x.png" 
+            alt='React Logo' 
             boxSize={'1.5rem'} borderRadius='full' ignoreFallback /><Text ml={2}>Web 2.0</Text>
-
           </Flex>
         </ListItem>
         <ListItem>
