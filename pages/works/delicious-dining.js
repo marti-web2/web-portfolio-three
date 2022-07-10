@@ -77,11 +77,11 @@ const Work = () => (
       </List>
       <WorkImage
         src="/images/works/delicious-recipes_01.png"
-        alt="Delicious Dining"
+        alt="Photo of Home Page"
       />
       <WorkImage
         src="/images/works/delicious-recipes_02.png"
-        alt="Delicious Dining"
+        alt="Photo of Recipe Page"
       />
     </Container>
   </Layout>
