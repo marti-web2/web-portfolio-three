@@ -18,9 +18,7 @@ const Works = () => (
             title="Delicious Dining"
             thumbnail={thumbDining}
           >
-            An app that allows you to browse through a wide selection of
-            delicious recipes that even the novice chef can prepare in little
-            time.
+           An app that provides detailed instructions to help anyone prepare a delicious gourmet meal.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
