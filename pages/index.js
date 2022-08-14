@@ -72,8 +72,8 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Work
         </Heading>
-        <Paragraph>
-          I am a freelance and full-stack developer based in Texas, USA with a
+        <Paragraph textAlign="left">
+          I am a freelance and full-stack developer based in Texas with a
           passion for building things that help people do things and have fun. I
           have a knack for all things launching products, from planning and
           designing to solving real-life problems with code. When not online, I
