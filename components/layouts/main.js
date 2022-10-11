@@ -29,6 +29,10 @@ const Main = ({ children, router }) => {
         <meta name="og:title" content="Marti McDee" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.craftz.dog/card.png" />
+        <meta
+          name="ahrefs-site-verification"
+          content="448f475a66924e42306ceb790ff1f036e9d88d374c1c831aee0db260867ce4e2">
+        </meta>
         <title>Marti McDee - Homepage</title>
       </Head>
 
