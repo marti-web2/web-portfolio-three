@@ -72,11 +72,12 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Work
         </Heading>
-        <Paragraph textAlign="left">
+        <Paragraph>
           I am a freelance and full-stack developer based in Texas with a
           passion for building things that help people do things and have fun. I
           have a knack for all things launching products, from planning and
-          designing to solving real-life problems with code. When not online, I
+          designing to solving real-life problems with code.</Paragraph><br />
+          <Paragraph> When not online, I
           love to play music. Check out my{' '}
           <NextLink
             href="https://www.youtube.com/channel/UCfwy8OpJX_eO4bDExgQ2lfw"

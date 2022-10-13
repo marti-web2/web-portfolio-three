@@ -13,7 +13,7 @@ const Posts = () => (
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="JavaScript Fundamentals: Types, Values, and Variables"
+            title="JavaScript Fundamentals: Types, Values, and Variables - NaN"
             thumbnail={thumbJSTypes}
             href="https://twitter.com/marti_mcdee/status/1548819396830822402"
           />
