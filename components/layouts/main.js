@@ -34,6 +34,8 @@ const Main = ({ children, router }) => {
           content="448f475a66924e42306ceb790ff1f036e9d88d374c1c831aee0db260867ce4e2">
         </meta>
         <title>Marti McDee - Homepage</title>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-B9R759RGHE"></script>
+        <script src='../lib/ga/gTag.js'></script>
       </Head>
 
       <NavBar path={router.asPath} />

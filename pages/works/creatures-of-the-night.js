@@ -17,11 +17,11 @@ const Work = () => (
   <Layout title="Creatures of the Night">
     <Container>
       <Title>
-        Creatures of the Night - <em>Alpha</em> <Badge>2022</Badge>
+        Creatures of the Night <em>[Alpha]</em> <Badge>2022</Badge>
       </Title>
       <P>
         Blackjack is a curious little furry adventurer who wandered off too far
-        from his normal route on his morning walk. Help our friend find his way
+        from his normal route on his morning walk.</P><br /><P>Help our friend find his way
         back home to his lovely wife Undgretta before the sun goes down and he
         finds himself spending the night outdoors amongst the creepy-crawlies of
         the forest.

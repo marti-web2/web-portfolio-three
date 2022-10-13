@@ -6,3 +6,7 @@ dist/
 *.old
 out/
 .vscode/
+.env
+
+# Analytics
+lib/ga
