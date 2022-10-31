@@ -4,7 +4,6 @@ import { AnimatePresence } from 'framer-motion'
 import Chakra from '../components/chakra'
 
 import { useEffect } from 'react'
-import { useRouter } from 'next/router'
 import * as ga from '../lib/ga'
 
 if (typeof window !== 'undefined') {
