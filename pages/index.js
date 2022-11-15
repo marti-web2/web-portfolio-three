@@ -139,7 +139,7 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://twitter.com/marti_mcdee" target="_blank">
+            <Link href="https://twitter.com/MartiMcdee" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="twitter"
