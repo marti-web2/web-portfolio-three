@@ -15,6 +15,7 @@ const Works = () => (
         <Section delay={0.2}>
           <Divider my={6} />
           <WorkGridItem
+            section={'works'}
             id="delicious-dining"
             title="Delicious Dining"
             thumbnail={thumbDining}
@@ -26,6 +27,7 @@ const Works = () => (
         <Section delay={0.2}>
           <Divider my={6} />
           <WorkGridItem
+            section={'works'}
             id="creatures-of-the-night"
             title="Creatures of the Night"
             thumbnail={thumbCreatures}
