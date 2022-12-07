@@ -73,7 +73,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          I am a freelance and full-stack developer based in Texas with a
+          I am a freelance software developer based in Texas with a
           passion for building things that help people do things and have fun. I
           have a knack for all things launching products, from planning and
           designing to solving real-life problems with code.</Paragraph><br />
@@ -145,7 +145,7 @@ const Home = () => (
                 colorScheme="twitter"
                 leftIcon={<IoLogoTwitter />}
               >
-                @marti_mcdee
+                Twitter
               </Button>
             </Link>
           </ListItem>
