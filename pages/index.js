@@ -21,7 +21,8 @@ import {
   IoLogoTwitter,
   IoLogoInstagram,
   IoLogoGithub,
-  IoLogoLinkedin
+  IoLogoLinkedin,
+  IoLogoTwitch
 } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbFeatured from '../public/images/featured-app.png'
@@ -85,7 +86,7 @@ const Home = () => (
           >
             <Link target="_blank">YouTube </Link>
           </NextLink>
-          channel for app development tips and instructional videos.
+          channel for app development tips and solutions to Leetcode problems.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -137,7 +138,7 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           On the web
         </Heading>
-        <List>
+        <List display="inline-flex">
           <ListItem>
             <Link href="https://twitter.com/MartiMcdee" target="_blank">
               <Button
@@ -169,7 +170,7 @@ const Home = () => (
             <Link href="https://github.com/marti-mcdee" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="github"
+                colorScheme={"whatsapp"}
                 leftIcon={<IoLogoGithub />}
               >
                 Github
@@ -181,16 +182,28 @@ const Home = () => (
             <Link href="https://www.instagram.com/marti_mcdee/" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="instagram"
+                colorScheme={"pink"}
                 leftIcon={<IoLogoInstagram />}
               >
                 Instagram
               </Button>
             </Link>
           </ListItem>
+
+          <ListItem>
+            <Link href="https://www.twitch.tv/marti_mcdee" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme={"purple"}
+                leftIcon={<IoLogoTwitch />}
+              >
+                Twitch
+              </Button>
+            </Link>
+          </ListItem>
         </List>
 
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+        <SimpleGrid columns={[1, 2, 2]} gap={6} style={{marginTop: '2.5em'}}>
           <GridItem
             href="https://www.youtube.com/channel/UCfwy8OpJX_eO4bDExgQ2lfw"
             title="Pregaming the Afterlife"
