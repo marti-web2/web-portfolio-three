@@ -32,21 +32,24 @@ Welcome to my professional portfolio! Here, I am showcasing my most cherished wo
 <br />
 
 <h3>Project Structure</h3>
-<pre>$PROJECT_ROOT
+<pre>
+  $PROJECT_ROOT
 
-│ # Page files
-├── pages
+  │ # Page files
+  ├── pages
     ├── posts
     ├── works
-│ # React component files
-├── components
-│ # Non-react modules
-├── lib
+  │ # React component files
+  ├── components
+  │ # Non-react modules
+  ├── lib
     ├── ga
-│ # Static files for images and 3d model file
-└── public
+  │ # Static files for images and 3d model file
+  └── public
     ├── assets
-    ├── images</pre>
+    ├── images
+</pre>
+
 <br />
 
 <h3>Stack</h3>
