@@ -6,7 +6,7 @@
 <h1 style="text-align: center;">My Web Portfolio</h1>
 <p>
   <a href="https://github.com/marti-mcdee/readme/graphs/contributors">
-    <div style="text-align: center;"><img alt="Contributors" src="https://img.shields.io/github/contributors/andreasbm/readme.svg"
+    <div style="text-align: center;"><img alt="Contributors" src="https://img.shields.io/github/contributors/marti-mcdee/readme.svg"
         height="20%" />
   </a>
   <a href="https://github.com/marti-mcdee/readme/graphs/commit-activity">
