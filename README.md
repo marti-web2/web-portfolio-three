@@ -69,13 +69,13 @@ Welcome to my professional portfolio! Here, I am showcasing my most cherished wo
 <em>Framer Motion is used in the implemenation of the light/dark theme toggle button.  It provides a wide range of pre-built animations and gestures, making it a powerful tool for creating engaging user experiences.</em>
 <br />
 
-<h3>## ➤ Future Work</h3>
+<h3>Future Work</h3>
 That's it for now! Lot's of exiting features a going to be added in the future. I would be so happy if you
 gave this repository a star, tweeted about it or told your friends about this little corner of the Internet ❤️
 Have a great day!
 <br />
 
-<h3>## ➤ Contributors</h3>
+<h3>Contributors</h3>
 <a href="https://twitter.com/MartiMcdee" target="_blank">@MartiMcdee</a>
 
 <h3>License</h3>
