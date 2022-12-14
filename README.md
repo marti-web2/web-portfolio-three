@@ -1,5 +1,5 @@
 <div style="text-align: center;">
-  <img id="logo" src="" alt="Logo" width="100"
+  <img id="logo" src="https://www.rlogical.com/wp-content/uploads/2021/08/Rlogical-Blog-Images-thumbnail.png" alt="Logo" width="100"
     height="100" />
 </div>
 </p>
