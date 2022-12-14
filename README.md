@@ -37,7 +37,7 @@ Welcome to my professional portfolio! Here, I am showcasing my most cherished wo
 
   │ # Page files
   ├── pages
-    --├── posts
+    &nbsp;&nbsp;├── posts
     --├── works
   │ # React component files
   ├── components
