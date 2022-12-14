@@ -36,17 +36,17 @@ $PROJECT_ROOT
 
 │ # Page files<br />
 ├── pages<br />
-  ├── posts<br />
-  ├── works<br />
+<pre> ├── posts</pre><br />
+<pre> ├── works</pre><br />
 │ # React component files<br />
 ├── components<br />
 │ # Non-react modules<br />
 ├── lib<br />
-  ├── ga<br />
+<pre> ├── ga</pre><br />
 │ # Static files for images and 3d model file<br />
 └── public<br />
-  ├── assets<br />
-  ├── images<br />
+<pre> ├── assets</pre><br />
+<pre> ├── images</pre><br />
 <br />
 
 <h3>Stack</h3>
