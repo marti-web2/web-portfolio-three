@@ -78,15 +78,12 @@ const Home = () => (
           passion for building things that help people do things and have fun. I
           have a knack for all things launching products, from planning and
           designing to solving real-life problems with code.</Paragraph><br />
-          <Paragraph> When not online, I
-          love to play music. Check out my{' '}
-          <NextLink
-            href="https://www.youtube.com/channel/UCfwy8OpJX_eO4bDExgQ2lfw"
-            passHref
-          >
-            <Link target="_blank">YouTube </Link>
-          </NextLink>
-          channel for app development tips and solutions to Leetcode problems.
+        <Paragraph> When not online, I
+          love to play music. Check out my YouTube channel for app development tips and{' '}
+          <Link href="https://www.youtube.com/channel/UCfwy8OpJX_eO4bDExgQ2lfw" target="_blank">
+            Leetcode Solutions
+          </Link>
+          .
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -129,8 +126,9 @@ const Home = () => (
           Coding, Learning new programming languages, Drawing, Playing keyboards{' '}
           {'&'} guitar, and{' '}
           <Link href="https://www.twitch.tv/marti_mcdee" target="_blank">
-            Gaming
+            Retro Gaming
           </Link>
+          .
         </Paragraph>
       </Section>
 
@@ -203,7 +201,7 @@ const Home = () => (
           </ListItem>
         </List>
 
-        <SimpleGrid columns={[1, 2, 2]} gap={6} style={{marginTop: '2.5em'}}>
+        <SimpleGrid columns={[1, 2, 2]} gap={6} style={{ marginTop: '2.5em' }}>
           <GridItem
             href="https://www.youtube.com/channel/UCfwy8OpJX_eO4bDExgQ2lfw"
             title="Pregaming the Afterlife"
@@ -238,7 +236,7 @@ const Home = () => (
         </Box>
       </Section>
     </Container>
-  </Layout>
+  </Layout >
 )
 
 export default Home
