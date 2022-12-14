@@ -3,7 +3,7 @@
     height="100" />
 </div>
 </p>
-<h1 style="text-align: center;">Welcome to Booktopia!</h1>
+<h1 style="text-align: center;">My Web Portfolio</h1>
 <p>
   <a href="https://github.com/marti-mcdee/readme/graphs/contributors">
     <div style="text-align: center;"><img alt="Contributors" src="https://img.shields.io/github/contributors/andreasbm/readme.svg"
@@ -16,11 +16,11 @@
 </p>
 
 <p style="text-align: center;">
-  <b>An online bookstore app built with Angular 14 that gives prospective customers a place to browse and purchase titles from some of their favorite authors.</b></br>
+  <b>My professional web portfolio built with Next.js</b></br>
   <sub>
     <ul>
-      <li><b>Type: </b><span> App</span></li>
-      <li><b>Genre: </b><span> Online Store</span></li>
+      <li><b>Type: </b><span> Portfolio</span></li>
+      <li><b>Genre: </b><span> Website</span></li>
       <li><b>Platform: </b><span> Web</span></li>
     </ul>
   </sub>
@@ -28,25 +28,25 @@
 
 <br />
 <h2>Description</h2>
-This app provides prospective customers with an online book store in which to browse and purchase titles from their favorite authors.
+Welcome to my professional portfolio! Here, I am showcasing my most cherished works in the fields of Programming, Music, and Art. In addition, this site also serves as a hub for all of my points of contact through social media and email. So, don't be shy. Say 'Hello!'.
 <br />
 
 <h3>Project Structure</h3>
 $PROJECT_ROOT
 
-│ # Page files
-├── pages
-  ├── posts
-  ├── works
-│ # React component files
-├── components
-│ # Non-react modules
-├── lib
-  ├── ga
-│ # Static files for images and 3d model file
-└── public
-  ├── assets
-  ├── images
+│ # Page files<br />
+├── pages<br />
+  ├── posts<br />
+  ├── works<br />
+│ # React component files<br />
+├── components<br />
+│ # Non-react modules<br />
+├── lib<br />
+  ├── ga<br />
+│ # Static files for images and 3d model file<br />
+└── public<br />
+  ├── assets<br />
+  ├── images<br />
 <br />
 
 <h3>Stack</h3>
@@ -67,8 +67,7 @@ $PROJECT_ROOT
 <br />
 
 <h3>## ➤ Future Work</h3>
-That's it for now! Lot's of exiting features a going to be added in the future. If you stumble upon an issue or
-have a feature request you are very welcome to open a Github issue or pull request. I would be so happy if you
+That's it for now! Lot's of exiting features a going to be added in the future. I would be so happy if you
 gave this repository a star, tweeted about it or told your friends about this little corner of the Internet ❤️
 Have a great day!
 <br />
