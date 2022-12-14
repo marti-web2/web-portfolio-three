@@ -1,5 +1,5 @@
 <div style="text-align: center;">
-  <img id="logo" src="https://www.rlogical.com/wp-content/uploads/2021/08/Rlogical-Blog-Images-thumbnail.png" alt="Logo" width="100"
+  <img id="logo" src="" alt="Logo" width="100"
     height="100" />
 </div>
 </p>
@@ -32,21 +32,21 @@ Welcome to my professional portfolio! Here, I am showcasing my most cherished wo
 <br />
 
 <h3>Project Structure</h3>
-$PROJECT_ROOT
+<pre>$PROJECT_ROOT
 
-│ # Page files<br />
-├── pages<br />
-<pre> ├── posts</pre><br />
-<pre> ├── works</pre><br />
-│ # React component files<br />
-├── components<br />
-│ # Non-react modules<br />
-├── lib<br />
-<pre> ├── ga</pre><br />
-│ # Static files for images and 3d model file<br />
-└── public<br />
-<pre> ├── assets</pre><br />
-<pre> ├── images</pre><br />
+│ # Page files
+├── pages
+  ├── posts
+  ├── works
+│ # React component files
+├── components
+│ # Non-react modules
+├── lib
+  ├── ga
+│ # Static files for images and 3d model file
+└── public
+  ├── assets
+  ├── images</pre>
 <br />
 
 <h3>Stack</h3>
