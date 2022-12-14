@@ -37,17 +37,17 @@ Welcome to my professional portfolio! Here, I am showcasing my most cherished wo
 
   │ # Page files
   ├── pages
-    ├── posts
-    ├── works
+    --├── posts
+    --├── works
   │ # React component files
   ├── components
   │ # Non-react modules
   ├── lib
-    ├── ga
+    --├── ga
   │ # Static files for images and 3d model file
   └── public
-    ├── assets
-    ├── images
+    --├── assets
+    --├── images
 </pre>
 
 <br />
