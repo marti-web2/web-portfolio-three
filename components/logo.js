@@ -32,7 +32,7 @@ const Logo = () => {
             fontWeight={'bold'}
             ml={3}
           >
-            Marti McDee
+            Marti Martinez
           </Text>
         </LogoBox>
       </a>
