@@ -17,7 +17,7 @@ const Work = () => (
   <Layout title="Creatures of the Night">
     <Container>
       <Title>
-        Creatures of the Night <em>[Alpha]</em> <Badge>2022</Badge>
+        Creatures of the Night<Badge>{' '}2022</Badge>
       </Title>
       <P>
         Blackjack is a curious little furry adventurer who wandered off too far
