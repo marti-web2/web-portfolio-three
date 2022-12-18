@@ -13,7 +13,6 @@ import {
 } from '@chakra-ui/react'
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
@@ -38,7 +37,7 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Marti McDee
+            Marti Martinez
           </Heading>
           <p>Digital Artist / Musician / Developer</p>
         </Box>
@@ -74,16 +73,12 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          I am a freelance software developer based in Texas with a
-          passion for building things that help people do things and have fun. I
-          have a knack for all things launching products, from planning and
-          designing to solving real-life problems with code.</Paragraph><br />
-        <Paragraph> When not online, I
-          love to play music. Check out my YouTube channel for app development tips and{' '}
+          As a freelance software developer based in Texas, I am passionate about creating solutions that are both functional and enjoyable for users. I specialize in the entire product development process, from planning and design to problem-solving with code.</Paragraph><br />
+        <Paragraph> In my free time, I enjoy playing music and sharing app development tips and{' '}
           <Link href="https://www.youtube.com/channel/UCfwy8OpJX_eO4bDExgQ2lfw" target="_blank">
             Leetcode Solutions
           </Link>
-          .
+          {' '}on my YouTube channel. My expertise and enthusiasm make me well-equipped to develop innovative and effective solutions for my clients.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -102,20 +97,12 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
-        <BioSection>
-          <BioYear>2019</BioYear>
-          Completed the Associates of Science Program at Northeast Lakeview
-          College
-        </BioSection>
-        <BioSection>
-          <BioYear>2021</BioYear>
-          Completed the Bachelor&apos;s of Computer Science Program at the
-          University of Texas at San Antonio
-        </BioSection>
-        <BioSection>
-          <BioYear>2022 to present</BioYear>
-          Working as a freelancer
-        </BioSection>
+        <Paragraph>
+         I have a strong educational background in computer science, having completed the <strong>Associates of Science</strong> program at Northeast Lakeview College in 2019 and the <strong>Bachelor&apos;s of Computer Science</strong> program at the University of Texas at San Antonio in 2021. 
+        </Paragraph><br />
+        <Paragraph>
+          Currently, I am working as a freelancer, leveraging my skills and knowledge to deliver high-quality solutions to my clients.
+        </Paragraph>
       </Section>
 
       <Section delay={0.3}>
@@ -123,13 +110,15 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Coding, Learning new programming languages, Drawing, Playing keyboards{' '}
-          {'&'} guitar, and{' '}
+          Coding, learning new programming languages, drawing, and playing keyboards and guitar. I also enjoy {' '}
           <Link href="https://www.twitch.tv/marti_mcdee" target="_blank">
             Retro Gaming
           </Link>
-          .
-        </Paragraph>
+          {' '}as a way to relax and unwind.
+        </Paragraph><br />
+        <Paragraph>
+          These passions and hobbies allow me to constantly expand my skill set and stay up-to-date on the latest trends and technologies in my field.
+          </Paragraph>
       </Section>
 
       <Section delay={0.3}>
