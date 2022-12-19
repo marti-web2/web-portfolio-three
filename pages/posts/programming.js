@@ -3,6 +3,7 @@ import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
 import { GridItem } from '../../components/grid-item'
 import thumbJS from '../../public/images/links/posts/programming/js.webp'
+import thumbCPlusPlus from '../../public/images/links/posts/programming/cplusplus.jpeg'
 
 const Programming = () => (
   <Layout title="Posts">
@@ -38,6 +39,16 @@ const Programming = () => (
           />
         </SimpleGrid>
       </Section>
+      <Section delay={0.2}>
+        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <GridItem
+            title="Static and Dynamic Objects"
+            sub="Instantiating Objects"
+            thumbnail={thumbCPlusPlus}
+            href="https://twitter.com/MartiMcdee/status/1604606461509881857"
+          />
+          </SimpleGrid>
+          </Section>
     </Container>
   </Layout>
 )
