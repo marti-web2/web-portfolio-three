@@ -42,8 +42,8 @@ const Programming = () => (
       <Section delay={0.2}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="Static and Dynamic Objects"
-            sub="Instantiating Objects"
+            title="Objects"
+            sub="Static vs. Dynamic"
             thumbnail={thumbCPlusPlus}
             href="https://twitter.com/MartiMcdee/status/1604606461509881857"
           />
