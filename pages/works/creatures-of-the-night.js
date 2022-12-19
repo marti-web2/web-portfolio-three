@@ -20,11 +20,10 @@ const Work = () => (
         Creatures of the Night<Badge>{' '}2022</Badge>
       </Title>
       <P>
-        Blackjack is a curious little furry adventurer who wandered off too far
-        from his normal route on his morning walk.</P><br /><P>Help our friend find his way
-        back home to his lovely wife Undgretta before the sun goes down and he
-        finds himself spending the night outdoors amongst the creepy-crawlies of
-        the forest.
+      Blackjack is a curious adventurer who finds himself lost on a morning walk. As the sun begins to set, he must find his way back home to his wife, Undgretta, before he is forced to spend the night in the creepy forest.
+      </P><br />
+      <P>
+      Players must guide Blackjack through the wilderness and help him safely return home.
       </P>
       <List ml={4} my={4}>
         <ListItem>

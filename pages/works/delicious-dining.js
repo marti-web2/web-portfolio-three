@@ -20,9 +20,10 @@ const Work = () => (
         Delicious Dining <Badge>2022</Badge>
       </Title>
       <P>
-        An app that provides detailed instructions to help anyone prepare a
-        delicious gourmet meal. The Splide component is implemented to give the
-        user a smooth experience in selecting recipes from a handy carousel.
+      This web application offers detailed instructions for preparing gourmet meals at home. The app features a user-friendly interface, utilizing the Splide component to allow users to easily browse and select recipes through a convenient carousel.
+      </P><br />
+      <P>
+      Whether you are an experienced chef or a beginner, this app will provide you with the tools and guidance you need to create delicious and impressive dishes.
       </P>
       <List ml={4} my={4}>
         <ListItem>

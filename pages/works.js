@@ -20,8 +20,7 @@ const Works = () => (
             title="Delicious Dining"
             thumbnail={thumbDining}
           >
-            An app that provides detailed instructions to help anyone prepare a
-            delicious gourmet meal.
+            An app that provides users with detailed instructions for preparing delicious gourmet meals at home. 
           </WorkGridItem>
         </Section>
         <Section delay={0.2}>
@@ -32,8 +31,7 @@ const Works = () => (
             title="Creatures of the Night"
             thumbnail={thumbCreatures}
           >
-            A side scrolling arcade-style action game. The goal is to defeat
-            enough night creatures before the timer expires.
+            An arcade-style action game featuring side-scrolling gameplay. Players are tasked with defeating a certain number of night creatures before the timer runs out.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
