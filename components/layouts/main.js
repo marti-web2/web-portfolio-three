@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-sync-scripts */
+/* eslint-disable @next/next/next-script-for-ga */
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
 import NavBar from '../navbar'
