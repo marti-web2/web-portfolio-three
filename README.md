@@ -76,7 +76,7 @@ MIT License.
 
 <h5>GLTF Model</h5>
 
-Title: Shiba
-Author: zlxlsun02
-Source: https://sketchfab.com/3d-models/shiba-faef9fe5ace445e7b2989d1c1ece361c
-License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+<p>Title: Shiba</p>
+<p>Author: <a href="https://sketchfab.com/zlxlsun02" target="_blank">zlxlsun02</a></p>
+<p>Source: <a href="https://sketchfab.com/3d-models/shiba-faef9fe5ace445e7b2989d1c1ece361c" target="_blank">https://sketchfab.com/3d-models/shiba-faef9fe5ace445e7b2989d1c1ece361c</a></p>
+<p>License: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></p>
