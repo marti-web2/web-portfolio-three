@@ -74,7 +74,7 @@ Have a great day!
 
 MIT License.
 
-<h5>GLTF Model</h5>
+<h4>GLTF Model</h4>
 
 <p>Title: Shiba</p>
 <p>Author: <a href="https://sketchfab.com/zlxlsun02" target="_blank">zlxlsun02</a></p>
