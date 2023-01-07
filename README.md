@@ -6,9 +6,9 @@
 <h1 style="text-align: center;">My Web Portfolio</h1>
 <br />
 <h2>Description</h2>
-<pre>Welcome to my professional portfolio. On this site, you will find a selection of my best work in the fields of programming, music, and art. This portfolio is designed to serve as a showcase of my skills and accomplishments, as well as a central hub for all of my points of contact through social media and email. 
+<pre><p>Welcome to my professional portfolio. On this site, you will find a selection of my best work in the fields of programming, music, and art. This portfolio is designed to serve as a showcase of my skills and accomplishments, as well as a central hub for all of my points of contact through social media and email.</p>
 
-I am currently seeking new job opportunities and would love to connect with potential employers or collaborators. Please feel free to reach out and connect with me through any of these channels. I am always happy to discuss potential opportunities and how my skills and experiences can contribute to your team or project.</pre>
+<p>I am currently seeking new job opportunities and would love to connect with potential employers or collaborators. Please feel free to reach out and connect with me through any of these channels. I am always happy to discuss potential opportunities and how my skills and experiences can contribute to your team or project.</p></pre>
 
 
 <h2>Project Structure</h2>
@@ -50,9 +50,9 @@ I am currently seeking new job opportunities and would love to connect with pote
 <br /><br />
 
 <h2>Future Work</h2>
-<pre>I am committed to practicing continuous integration and continuous deployment with this project. To that end, I will be integrating updates and new features on a continuous basis, and deploying new releases to the site on a weekly basis, every Tuesday. Keep an eye out for exciting new features and updates in the future.
+<pre><p>I am committed to practicing continuous integration and continuous deployment with this project. To that end, I will be integrating updates and new features on a continuous basis, and deploying new releases to the site on a weekly basis, every Tuesday. Keep an eye out for exciting new features and updates in the future.</p>
 
-If you like what you see here, please consider giving this repository a star, tweeting about it, or telling your friends about this little corner of the Internet. I would greatly appreciate your support. Thank you, and have a great day!</pre>
+<p>If you like what you see here, please consider giving this repository a star, tweeting about it, or telling your friends about this little corner of the Internet. I would greatly appreciate your support. Thank you, and have a great day!</p></pre>
 <br />
 
 <h2>Contributors</h2>
