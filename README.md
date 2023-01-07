@@ -4,24 +4,12 @@
 </div>
 </p>
 <h1 style="text-align: center;">My Web Portfolio</h1>
-
-<p style="text-align: center;">
-  <b>My professional web portfolio built with Next.js</b></br>
-  <sub>
-    <ul>
-      <li><b>Type: </b><span> Portfolio</span></li>
-      <li><b>Genre: </b><span> Website</span></li>
-      <li><b>Platform: </b><span> Web</span></li>
-    </ul>
-  </sub>
-</p>
-
 <br />
 <h2>Description</h2>
-Welcome to my professional portfolio! Here, I am showcasing my most cherished works in the fields of Programming, Music, and Art. In addition, this site also serves as a hub for all of my points of contact through social media and email. So, don't be shy. Say 'Hello!'.
+Welcome to my professional portfolio. On this site, you will find a selection of my best work in the fields of programming, music, and art. This portfolio is designed to serve as a showcase of my skills and accomplishments, as well as a central hub for all of my points of contact through social media and email. I am currently seeking new job opportunities and would love to connect with potential employers or collaborators. Please feel free to reach out and connect with me through any of these channels. I am always happy to discuss potential opportunities and how my skills and experiences can contribute to your team or project.
 <br />
 
-<h3>Project Structure</h3>
+<h2>Project Structure</h2>
 <pre>
   $PROJECT_ROOT
 
@@ -42,7 +30,7 @@ Welcome to my professional portfolio! Here, I am showcasing my most cherished wo
 
 <br />
 
-<h3>Stack</h3>
+<h2>Stack</h2>
 <strong>Next.js -</strong>
 <a href="https://nextjs.org/docs"> Offical Documentation </a><br />
 <em>Next.js is the framework implemented for managing the application data flow and routing. It includes built-in server-side rendering and automatic code splitting, which makes it convenient to keep this application fast and scalable. </em><br />
@@ -59,16 +47,16 @@ Welcome to my professional portfolio! Here, I am showcasing my most cherished wo
 <em>Framer Motion is used in the implemenation of the light/dark theme toggle button.  It provides a wide range of pre-built animations and gestures, making it a powerful tool for creating engaging user experiences.</em>
 <br />
 
-<h3>Future Work</h3>
-That's it for now! Lot's of exiting features a going to be added in the future. I would be so happy if you
-gave this repository a star, tweeted about it or told your friends about this little corner of the Internet ❤️
-Have a great day!
+<h2>Future Work</h2>
+I am committed to practicing continuous integration and continuous deployment with this project. To that end, I will be integrating updates and new features on a continuous basis, and deploying new releases to the site on a weekly basis, every Tuesday. Keep an eye out for exciting new features and updates in the future.
+
+If you like what you see here, please consider giving this repository a star, tweeting about it, or telling your friends about this little corner of the Internet. I would greatly appreciate your support. Thank you, and have a great day!
 <br />
 
-<h3>Contributors</h3>
+<h2>Contributors</h2>
 <a href="https://twitter.com/MartiMcdee" target="_blank">@MartiMcdee</a>
 
-<h3>License</h3>
+<h2>License</h2>
 
 <h5>Open Source</h5>
 
