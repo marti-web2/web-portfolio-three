@@ -6,7 +6,9 @@
 <h1 style="text-align: center;">My Web Portfolio</h1>
 <br />
 <h2>Description</h2>
-Welcome to my professional portfolio. On this site, you will find a selection of my best work in the fields of programming, music, and art. This portfolio is designed to serve as a showcase of my skills and accomplishments, as well as a central hub for all of my points of contact through social media and email. I am currently seeking new job opportunities and would love to connect with potential employers or collaborators. Please feel free to reach out and connect with me through any of these channels. I am always happy to discuss potential opportunities and how my skills and experiences can contribute to your team or project.
+Welcome to my professional portfolio. On this site, you will find a selection of my best work in the fields of programming, music, and art. This portfolio is designed to serve as a showcase of my skills and accomplishments, as well as a central hub for all of my points of contact through social media and email. 
+
+I am currently seeking new job opportunities and would love to connect with potential employers or collaborators. Please feel free to reach out and connect with me through any of these channels. I am always happy to discuss potential opportunities and how my skills and experiences can contribute to your team or project.
 <br />
 
 <h2>Project Structure</h2>
