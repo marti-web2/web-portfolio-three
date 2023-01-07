@@ -6,10 +6,10 @@
 <h1 style="text-align: center;">My Web Portfolio</h1>
 <br />
 <h2>Description</h2>
-Welcome to my professional portfolio. On this site, you will find a selection of my best work in the fields of programming, music, and art. This portfolio is designed to serve as a showcase of my skills and accomplishments, as well as a central hub for all of my points of contact through social media and email. 
+<pre>Welcome to my professional portfolio. On this site, you will find a selection of my best work in the fields of programming, music, and art. This portfolio is designed to serve as a showcase of my skills and accomplishments, as well as a central hub for all of my points of contact through social media and email. 
 
-I am currently seeking new job opportunities and would love to connect with potential employers or collaborators. Please feel free to reach out and connect with me through any of these channels. I am always happy to discuss potential opportunities and how my skills and experiences can contribute to your team or project.
-<br />
+I am currently seeking new job opportunities and would love to connect with potential employers or collaborators. Please feel free to reach out and connect with me through any of these channels. I am always happy to discuss potential opportunities and how my skills and experiences can contribute to your team or project.</pre>
+
 
 <h2>Project Structure</h2>
 <pre>
@@ -35,24 +35,24 @@ I am currently seeking new job opportunities and would love to connect with pote
 <h2>Stack</h2>
 <strong>Next.js -</strong>
 <a href="https://nextjs.org/docs"> Offical Documentation </a><br />
-<em>Next.js is the framework implemented for managing the application data flow and routing. It includes built-in server-side rendering and automatic code splitting, which makes it convenient to keep this application fast and scalable. </em><br />
+<em>Next.js is the framework implemented for managing the application data flow and routing. It includes built-in server-side rendering and automatic code splitting, which makes it convenient to keep this application fast and scalable. </em><br /><br />
 <strong>Chakra UI -</strong>
 <a href="https://chakra-ui.com/docs"> Offical Documentation </a><br />
 <em>Chakra UI is the component library implemented to create custom buttons and menu layouts. The focus is on providing an accessible and user-friendly experience for all users, including those with disabilities.</em>
-<br />
+<br /><br />
 <strong>Three.js -</strong>
 <a href="https://threejs.org/docs/"> Offical Documentation </a><br />
 <em>Three.js is implemented to display the 3D interactive Shiba Inu graphic at the top of the Home page.  It uses WebGL (Web Graphics Library) to render the 3D graphics, making it compatible with most modern web browsers without the need for plugins.</em>
-<br />
+<br /><br />
 <strong>Framer Motion -</strong>
 <a href="https://www.framer.com/docs/"> Offical Documentation </a><br />
 <em>Framer Motion is used in the implemenation of the light/dark theme toggle button.  It provides a wide range of pre-built animations and gestures, making it a powerful tool for creating engaging user experiences.</em>
-<br />
+<br /><br />
 
 <h2>Future Work</h2>
-I am committed to practicing continuous integration and continuous deployment with this project. To that end, I will be integrating updates and new features on a continuous basis, and deploying new releases to the site on a weekly basis, every Tuesday. Keep an eye out for exciting new features and updates in the future.
+<pre>I am committed to practicing continuous integration and continuous deployment with this project. To that end, I will be integrating updates and new features on a continuous basis, and deploying new releases to the site on a weekly basis, every Tuesday. Keep an eye out for exciting new features and updates in the future.
 
-If you like what you see here, please consider giving this repository a star, tweeting about it, or telling your friends about this little corner of the Internet. I would greatly appreciate your support. Thank you, and have a great day!
+If you like what you see here, please consider giving this repository a star, tweeting about it, or telling your friends about this little corner of the Internet. I would greatly appreciate your support. Thank you, and have a great day!</pre>
 <br />
 
 <h2>Contributors</h2>
