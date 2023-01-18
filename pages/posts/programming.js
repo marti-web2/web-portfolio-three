@@ -4,6 +4,7 @@ import Section from '../../components/section'
 import { GridItem } from '../../components/grid-item'
 import thumbJS from '../../public/images/links/posts/programming/js.webp'
 import thumbCPlusPlus from '../../public/images/links/posts/programming/cplusplus.jpeg'
+import thumbWebDev from '../../public/images/links/posts/programming/web-dev.webp'
 
 const Programming = () => (
   <Layout title="Posts">
@@ -46,6 +47,16 @@ const Programming = () => (
             sub="Static vs. Dynamic"
             thumbnail={thumbCPlusPlus}
             href="https://twitter.com/MartiMcdee/status/1604606461509881857"
+          />
+          </SimpleGrid>
+          </Section>
+      <Section delay={0.3}>
+        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <GridItem
+            title="MERN Stack"
+            sub="Creating a CRUD App"
+            thumbnail={thumbWebDev}
+            href="https://myblog-next-psi.vercel.app/blog/coding/mern-stack"
           />
           </SimpleGrid>
           </Section>
