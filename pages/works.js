@@ -4,6 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import thumbDining from '../public/images/works/delicious-dining/delicious-recipes_card.png'
 import thumbCreatures from '../public/images/works/creatures-of-the-night/creatures_card.png'
+import thumbBloggy from '../public/images/works/bloggy/bloggy-title-card.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -32,6 +33,17 @@ const Works = () => (
             thumbnail={thumbCreatures}
           >
             An arcade-style action game featuring side-scrolling gameplay. Players are tasked with defeating a certain number of night creatures before the timer runs out.
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.2}>
+          <Divider my={6} />
+          <WorkGridItem
+            section={'works'}
+            id="bloggy-mcblogface"
+            title="Bloggy McBlogface"
+            thumbnail={thumbBloggy}
+          >
+            In this blog, we explore the intersection of programming, music, and art.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
